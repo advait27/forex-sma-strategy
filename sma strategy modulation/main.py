@@ -22,7 +22,7 @@ def generate_mock_data(rows=100, seed=42):
     return pd.DataFrame({'datetime': time, 'close': close, 'volume': volume})
 
 # === Streamlit App ===
-st.set_page_config(page_title="Modular Forex Bot", layout="wide")
+st.set_page_config(page_title="Directional Forex Bot", layout="wide")
 st.title("Directional Forex Strategy Bot (SMA + RSI + Volume)")
 
 # Currency Pair Selector
