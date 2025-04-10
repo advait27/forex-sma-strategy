@@ -1,19 +1,5 @@
-# Core Framework
-streamlit==1.30.0          # Web UI framework
-
-# Data Handling
-pandas==2.2.1              # Efficient data manipulation
-numpy==1.26.4              # Numerical calculations
-
-# Visualization
-matplotlib==3.8.3          # Plotting price, RSI charts
-
-# Optional Enhancements (uncomment to use)
-# yfinance==0.2.36         # Fetch live Forex/stock data (for future API use)
-# requests==2.31.0         # For REST API integrations (e.g., Forex brokers)
-# ta==0.10.2               # Technical analysis library (if using advanced indicators)
-# plotly==5.20.0           # Interactive charts (optional enhancement)
-# seaborn==0.13.2          # Extra visualization styles (optional)
-
-# For reproducibility and environment consistency
-python-dotenv==1.0.1       # Manage API keys or config via .env file
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+python-dateutil>=2.8.0
